@@ -1,0 +1,25 @@
+.otp-form-container {
+    margin: 20px 0;
+}
+
+.otp-form-container .otp-inputs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-form-container .otp-inputs-section .otp-input-group input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.otp-form-container .otp-inputs-section .otp-input-group:last-child input {
+    margin-right: 0;
+}
